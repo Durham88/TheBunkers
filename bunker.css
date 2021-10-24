@@ -1,0 +1,41 @@
+body   { background-color: #F5F5F5;
+    color: #070707;
+    font-family: Verdana, Arial, sans-serif;
+}
+header {
+    background-color: #1b0fb9;
+  background-image: url(TanksTrader.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height:400px;
+}
+h1     { background-color: #1100ff;
+    color: #F9F0FE; }
+nav    {   
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;
+    background-color: #EAEAF2; 
+}
+nav a {
+    text-decoration: none;
+  }
+  
+  .studio {
+    font-style: italic;
+}
+footer { background-color: #ffffff;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em; 
+}
+header, nav, main, footer {
+        display: block; 
+      }
+      #mobile {
+        display: none; 
+      }
+      #desktop {
+        display: inline; 
+      } 
